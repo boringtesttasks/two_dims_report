@@ -1,0 +1,21 @@
+input_data_file: 'path_to_file.sav'
+input_weight_file: 'path_to_file.sps'
+output_file: 'path_to_file.xls'
+sheets:
+  1: 
+    sheet_name: 'sheet_name'
+    keys:
+      ANS1: 'mod'
+      ANS2: 'mod'
+      ANS3: 'mod'
+    values: 
+      - 'val1'
+      - 'val2'
+  2: 
+    keys:
+      ANS4: 'mod'
+      ANS5: 'mod'
+      ANS6: 'mod'
+    values: 
+      - 'val3'
+      - 'val4'
